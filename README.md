@@ -1,6 +1,6 @@
 # Foomi.io
 
-Foomi.io is a web platform showcasing games, tutorials, and other content created by Funmi Kate Orekoya.
+Foomi.io is a web platform showcasing games, tutorials, and other content created by me!
 
 ## Table of Contents
 - [Introduction](#introduction)
