@@ -1,6 +1,6 @@
-# Foomi.io
+# foomio.com
 
-Foomi.io is a web platform showcasing games, tutorials, and other content created by me!
+foomio.com is a web platform showcasing games created by me!
 
 ## Table of Contents
 - [Introduction](#introduction)
