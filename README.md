@@ -8,7 +8,7 @@ Foomi.io is a web platform showcasing games, tutorials, and other content create
 - [License](#license)
 
 ## Introduction
-foomi.io is a personal project portfolio of games, tutorials, and other projects. The platform is designed to provide visitors with access to my creations and to serve as a showcase of my skills and expertise in game development and web technologies.
+foomio.com is a personal project portfolio of games. The platform is designed to provide visitors with access to my creations and to serve as a showcase of my skills and expertise in game development and web technologies.
 
 ## Features
 - **Games Page**: Browse and play a collection of games created by me.
