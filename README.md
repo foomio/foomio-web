@@ -12,7 +12,7 @@ foomi.io is a personal project portfolio of games, tutorials, and other projects
 
 ## Features
 - **Games Page**: Browse and play a collection of games created by me.
-- **Tutorials Page**: Explore tutorials and guides on various topics related to game development and web technologies.
+- **About Page**: My resume.
 
 
 ## License
