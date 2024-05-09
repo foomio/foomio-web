@@ -1,21 +1,38 @@
-// Game1.js
-
 import React from 'react';
 import './styles/Game1.css'; // Import the CSS file
 
 function Game1() {
+  // Function to toggle full screen mode
+  const toggleFullScreen = () => {
+    const iframe = document.querySelector('.game-iframe');
+    if (iframe) {
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.webkitRequestFullscreen) { /* Safari */
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) { /* IE11 */
+        iframe.msRequestFullscreen();
+      }
+    }
+  };
+
   return (
     <div className="game-container">
-      {/* Embed the game using the provided iframe code */}
+      {/* Embed the game using the provided iframe code */}      
+      <button onClick={toggleFullScreen} className="full-screen-button">
+        Full Screen
+      </button>
       <iframe
-        src="https://itch.io/embed-upload/3323473?color=333333"
-        title="Friday Night Funkin' Game"
+        src="https://www.onlinegames.io/games/2023/unity2/gta-simulator/index.html"
+        title="Game1"
         className="game-iframe"
       ></iframe>
+      
       {/* Description */}
       <p className="game-description">
-        Friday Night Funkin' is a rhythm game where you must impress your girlfriend by hitting the right notes at the right time.
+        Medieval Kenieval is coming soon until then I have a playable placeholder from an unknown dev.
       </p>
+
     </div>
   );
 }

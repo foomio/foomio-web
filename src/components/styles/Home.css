@@ -1,7 +1,9 @@
 /* Home.css */
 
 .logo {
-    width: 1000px; /* Set the desired width */
+    padding-top: 100px;
+    width: 420px; /* Set the desired width */
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    opacity: 0.7;
   }
   

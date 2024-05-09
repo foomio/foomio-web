@@ -13,19 +13,24 @@ function AboutMe() {
       </div>
       <div className="section">
         <h3>Technical Skills</h3>
-        <p>Portfolio/Language/Tools: C++, Java, HTML/CSS, Python, & C#</p>
-        <p>AWS, Terraform, React, Unity, MongoDB, Garage Band, Google Calendar, Adobe Creative Cloud, Microsoft Office, and Docker</p>
+        <p>Languages/Tools: C++, Java, JavaScript, HTML/CSS, & Python</p>
+        <p>AWS, React, Terraform, Google Calendar, Docker, Git, Gitlab, and Microsoft Office. </p>
       </div>
       <div className="section">
         <h3>Experience</h3>
         <p>Oteemo, Reston, VA — Associate DevSecOps Consultant</p>
         <p>February 2022 - July 2023</p>
         <ul>
-          <li>Contributed to the Vulnerability Assessment Tracker (VAT) team for Platform 1’s IronBank, addressing frontend design, backend servers, and database issues.</li>
-          <li>Spearheaded the creation of User Stories for SkiCamp (an Air Force federal project), significantly enhancing project communication and client satisfaction.</li>
-          <li>Demonstrated proficiency in utilizing GitLab and GitHub for version control and fostering collaboration among team members.</li>
-          <li>Efficiently managed tasks and projects using Jira and Miro, ensuring timely completion and delivery of project milestones.</li>
+          <li>- Contributed to the Vulnerability Assessment Tracker (VAT) team for Platform 1’s IronBank, addressing frontend design, backend servers, and database issues.</li>
+          <li>- Spearheaded the creation of User Stories for SkiCamp (an Air Force federal project), significantly enhancing project communication and client satisfaction.</li>
+          <li>- Demonstrated proficiency in utilizing GitLab and GitHub for version control and fostering collaboration among team members.</li>
+          <li>- Efficiently managed tasks and projects using Jira and Miro, ensuring timely completion and delivery of project milestones.</li>
         </ul>
+      </div>
+      <div className="section">
+        <h3>Personal</h3>
+        <p>I'm a 20-something game developer based in the Austin, Texas area. Originally from San Jose, California, I've been programming since high school and have a passion for developing projects with AWS, React and Unity.</p>
+        <p>My favorite color is green, and I share my home with Bazooka, my dachshund. In my free time, I enjoy playing video games, a hobby that was sparked when I watched my sister play Final Fantasy 10.</p>
       </div>
     </div>
   );

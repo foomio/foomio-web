@@ -1,36 +1,33 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
 // Components for each page
 import Home from './components/Home';
+import Footer from './components/Footer';
 import About from './components/About';
-import Games from './components/Games';
+import Projects from './components/Projects'; // Updated import for projects component
 import Game1 from './components/GamesList/Game1'; // Import the game component
-import Tutorials from './components/Tutorials'; // Make sure the path is correct
-import Tutorial1 from './components/TutorialsList/Tutorial1'; // Make sure the path is correct
-
 
 function App() {
   return (
     <Router>
       <div className="App">
         <header>
-          <h1>foomi.io</h1>
+          <h1>foomio</h1>
           <nav>
             <ul>
               <li>
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/games">Games</Link>
-              </li>
-              <li>
-                <Link to="/tutorials">Tutorials</Link> {/* Add link to Tutorials */}
-              </li>              
+                <Link to="/projects">Projects</Link> {/* Updated link for projects */}
+              </li>             
               <li>
                 <Link to="/about">About</Link>
+              </li>
+              <li>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=LM4F8DZL5ZKFN">Tip Jar</a> {/* Add your tip jar link */}
               </li>
             </ul>
           </nav>
@@ -39,12 +36,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/games" element={<Games />} />
-            <Route path="/game1" element={<Game1 />} /> {/* Route for the game */}
-            <Route path="/tutorials" element={<Tutorials />} /> {/* Route for the Tutorials component */}
-            <Route path="/tutorial1" element={<Tutorial1 />} /> 
+            <Route path="/projects" element={<Projects />} /> {/* Updated route for projects */}
+            <Route path="/project1" element={<Game1 />} /> {/* Route for the game */}
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );

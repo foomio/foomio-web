@@ -1,0 +1,58 @@
+/* Projects.css */
+
+/* Container for the projects with padding */
+.project-container {
+  padding: 20px; /* Add padding */
+}
+
+/* Project list styling */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Individual project item styling */
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #4c3228;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Image styling */
+.project-item img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Adjust the maximum height of the image */
+  border-top-left-radius: 8px; /* Rounded corners for the image */
+  border-top-right-radius: 8px;
+}
+
+/* Project title styling */
+.project-info h3 {
+  margin: 10px 0;
+  color: #e7c09f; /* White text */
+}
+
+/* Project upload date styling */
+.project-info p {
+  margin-bottom: 5px;
+  color: #e7c09f;
+}
+
+/* View button styling */
+.view-button {
+  background-color: #3d251e; 
+  color: #e7c09f;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}

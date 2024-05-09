@@ -1,34 +1,63 @@
-/* App.css */
+/* Import the custom font */
+@font-face {
+  font-family: 'horseshoes'; /* Choose a name for your font */
+  src: url('./components/fonts/horseshoes.ttf') format('truetype'); /* Path to your font file */
+}
 
+/* Apply the custom font to specific elements */
 .App {
   text-align: center;
 }
 
-header {
-  background-color: #ffcc00; /* Warm yellow background */
-  color: #333; /* Dark gray text */
-  padding: 20px 0;
+header,
+footer,
+.tutorial-title {
+  font-family: 'horseshoes', sans-serif; /* Apply the custom font to header, footer, and title */
 }
 
-header h1 {
-  margin: 0;
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; /* Apply Arial font to the body */
+  background-image: url('components/images/logo7.png'); /* Assuming your background image is named 'background.jpg' and located in the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2e2a24;
+  margin: 0; /* Reset default margin to remove white space */
+  padding: 0; /* Reset default padding */
+}
+
+header {
+  background-color: #2e2a24; /* Brown background */
+  color: #e7c09f;
+  padding: 20px 0;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+header:hover {
+  background-color: #3d3221; /* Darker brown background on hover */
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0; /* Reset default margin to remove white space */
 }
 
 nav ul li {
   display: inline;
   margin-right: 20px;
+  transition: transform 0.2s ease; /* Add transition effect */
+}
+
+nav ul li:hover {
+  transform: translateY(-3px); /* Move the item slightly upward on hover */
 }
 
 nav ul li a {
-  color: #333; /* Dark gray text */
+  color: #e7c09f;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #ff6600; /* Brighter orange text on hover */
+  color: #be862d; /* Light pinkish-brown on hover */
 }

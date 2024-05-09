@@ -1,0 +1,38 @@
+/* Footer.css */
+
+footer {
+  background-color: #2e2a24;
+  color: 	#e7c09f;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%; /* Make the footer span the entire width of the viewport */
+  position: fixed; /* Position the footer fixed at the bottom */
+  bottom: 0; /* Align the footer to the bottom of the viewport */
+}
+footer:hover {
+  background-color: #3d3221; /* Darker brown background on hover */
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+ul li a {
+  color: 	#e7c09f;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #be862d;
+}
