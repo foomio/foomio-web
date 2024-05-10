@@ -1,6 +1,6 @@
 # foomio.com
 
-foomio.com is a web platform showcasing games created by me!
+foomio.com is a web platform showcasing applications/games created by me!
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -8,11 +8,11 @@ foomio.com is a web platform showcasing games created by me!
 - [License](#license)
 
 ## Introduction
-foomio.com is a personal project portfolio of games. The platform is designed to provide visitors with access to my creations and to serve as a showcase of my skills and expertise in game development and web technologies.
+foomio.com is a personal project portfolio
 
 ## Features
-- **Games Page**: Browse and play a collection of games created by me.
-- **About Page**: My resume.
+- **Portfolio Page**: Browse a collection of projects created by me.
+- **About Page**: About me.
 
 
 ## License
