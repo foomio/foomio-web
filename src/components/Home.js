@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       
-     <img src={logo} alt="Logo" className="logo"/> 
+      <img src={logo} alt="Logo" className="logo"/> 
 
     
       {/* Add other content of your Home page here */}

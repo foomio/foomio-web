@@ -17,11 +17,11 @@ footer,
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; /* Apply Arial font to the body */
-  background-image: url('components/images/logo7.png'); /* Assuming your background image is named 'background.jpg' and located in the public folder */
+ /* background-image: url('components/images/b10.png'); /* Assuming your background image is named 'background.jpg' and located in the public folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #2e2a24;
+  background-color: #a4875a;
   margin: 0; /* Reset default margin to remove white space */
   padding: 0; /* Reset default padding */
 }
