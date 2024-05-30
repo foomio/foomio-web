@@ -3,6 +3,7 @@
 /* Container for the projects with padding */
 .project-container {
   padding: 20px; /* Add padding */
+  padding-bottom: 150px; /* Add extra padding to the bottom */
 }
 
 /* Project list styling */

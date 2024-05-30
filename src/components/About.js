@@ -9,7 +9,7 @@ function AboutMe() {
       <p>I created this website using AWS and React</p>
       <div className="section">
         <h3>Personal</h3>
-        <p>I'm a 20-something game developer based in the Austin, Texas area. Originally from San Jose, California, I've been programming since high school and have a passion for developing projects with AWS and React.</p>
+        <p>I am DevSecOps Engineer with a love for learning and problem solving!</p>
         <p>My favorite color is green, and I share my home with Bazooka, my dachshund. In my free time, I enjoy playing video games, a hobby that was sparked when I watched my sister play Final Fantasy 10.</p>
       </div>
       <div className="section">

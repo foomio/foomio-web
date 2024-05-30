@@ -7,7 +7,6 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
 import Projects from './components/Projects'; // Updated import for projects component
-import Game1 from './components/GamesList/Game1'; // Import the game component
 
 function App() {
   return (
@@ -37,7 +36,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} /> {/* Updated route for projects */}
-            <Route path="/project1" element={<Game1 />} /> {/* Route for the game */}
           </Routes>
         </main>
         <Footer />
