@@ -1,6 +1,6 @@
 # foomio.com
 
-foomio.com is a web platform showcasing applications/games created by me!
+foomio.com is a website showcasing applications/games created by me!
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -8,7 +8,7 @@ foomio.com is a web platform showcasing applications/games created by me!
 - [License](#license)
 
 ## Introduction
-foomio.com is a personal project portfolio
+foomio.com is a personal project portfolio website made with AWS and React
 
 ## Features
 - **Portfolio Page**: Browse a collection of projects created by me.
