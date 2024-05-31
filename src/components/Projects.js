@@ -3,7 +3,7 @@ import './styles/Projects.css'; // Import the CSS file
 
 // Import images for projects
 import Project1Image from './images/1584175590822 (1).png';
-import Project2Image from './images/pink-notes.png'; // Add the new project image
+import Project2Image from './images/image.png'; 
 import Project3Image from './images/logo7.png';
 import Project4Image from './images/Screenshot 2024-05-30 094626.png';
 function Projects() {
